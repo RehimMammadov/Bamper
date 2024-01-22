@@ -50,14 +50,18 @@ header{
     margin-right: 15px;
 }
 
-#btnSignUp:hover, #btnSignIn:hover{
+#btnSignUp:hover,
+#btnSignIn:hover {
     background-color: var(--white);
-     a {
-        text-decoration: none;
-        color: var(--blue);
-        transition: 0.5s;
-    }
 }
+
+#btnSignUp:hover a,
+#btnSignIn:hover a {
+    text-decoration: none;
+    color: var(--blue);
+    transition: 0.5s;
+}
+
 .header_main{
     background-image: url(./img/background1-removebg.png);
     background-repeat: no-repeat;
